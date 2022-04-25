@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    justify-content: space-between;
+    width: 80%;
+    height: 100vh;
+}
+.about-us{
+    width: 50%;
+    height: 100vh;
+}
+.right-section{
+    width: 50%;
+    height: 100vh;
+    margin-left: 40px;
+}
+.about-us h1{
+    font-size: 55px;
+    line-height: 76px;
+    margin-top: 25%;
+}
+
+.about-us p{
+    margin-left: 0px;
+}
+
+
+.right-section .ball-1{
+    margin-top: 15%;
+    margin-left: 0px;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.
+.right-section p{
+    border-left: 3px dotted red;
+    padding-left: 25px;
+    margin-left: 23px;
+    width: 400px;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+}
+
+
+
+.container-2{
+    width: 100%;
+    height: 100vh;
+    background-color: #F2F2F2;
+    text-align: center;
+}
+#services{
+    margin-bottom: 45px;
+}
+
+#services h1{
+    line-height: 50px;
+    font-size: 38px;
+    margin-top: 5px;
+}
+
+#services h4{
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.our-services .image-line-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px 0px 0px;
+    justify-content: space-between;
+    width: 70%;
+    margin: 5px auto;
+}
+
+.our-services .image-line-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px 0px 0px;
+    justify-content: space-between;
+    width: 70%;
+    margin: 5px auto;
+}
+
+.learn-more{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 43px;
+    margin-top: 35px;
+    margin-right: 200px;
+    width: 150px;
+    float: right;
+    margin-top: 7px;
+    margin-top: 13px;
+    font-size: 13px;
+}
+
+.container-3{
+    width: 100%;
+    height: 100vh;
+    margin-top: 0px;
+}
+.connection-first{
+    display: flex;
+    position: relative;
+}
+
+.inTouch-1{
+    width: 50%;
+    height: 40vh;
+    background-image: url(../img/Image\ 1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.inTouch-2{
+    width: 50%;
+    height: 40vh;
+    background-image: url(../img/ovGrEUgrkyE.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.touch{
+    width: 75%;
+    height: 40vh;
+    background-color: #FF6433;
+    position: absolute;
+    left: 30%;
+}
+
+.touch h2{
+    margin-top: 10%;
+    margin-left: 55px;
+    color: white;
+    font-size: 30px;
+}
+
+.connection-second{
+    height: 15vh;
+    background-color: #F2F2F2;
+}
+
+.connection-third{
+    height: 45vh;
+    background-color: #FAFAFA;
+    width: 100%;
+    text-align: center;
+}
+
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    color: #661CE7;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.number-text{
+    display: flex;
+    justify-content: space-between;
+    color: #3a3636;
+    font-weight: 600; 
+}
+
+.connection-third h1{
+    padding-top: 45px;
+    margin-bottom: 15px;
+
+}
+
+
+.brands{
+    width: 80%;
+}
