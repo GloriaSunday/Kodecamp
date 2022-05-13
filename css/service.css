@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: manrope;
+}
+.header-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+}
+
+.right-section-1{
+    display: flex;
+    align-items: center;
+}
+
+.right-section-1 ul {
+    list-style: none;
+    display: flex;
+
+}
+
+.road-assistance{
+    display: flex;
+    padding-left: 20px;
+}
+
+.right-section-1 ul li{
+    margin-right: 20px;
+}
+
+.right-section-1 ul li  a {
+    text-decoration: none;
+    color: black;
+}
+
+.right-section-1 .navigation{
+    border: right 20px solid red;
+}
+
+.road-assistance .icon{
+    margin-right: 10px;
+}
+.services-1{
+    width: 100%;
+    background: url(../img/mechanic.png);
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+.services-1-text{
+    background: #1E1B1B;
+    color: white;
+    width: 40%;
+    justify-content: flex-end;   
+}
+.services-1-text h2, p{
+    color: #F2F2F2;
+    margin: 40px;
+}
+.services-1-text h2{
+    font-size: 64px;
+}
+.services-1-text{
+    padding: 30px;
+}
+.btn{
+    background: #FF6433;
+    border-radius: 12px;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+    display: inline-block;
+    color:#ffff;
+    margin-left: 40px;
+}
+.diagnosis{
+    display: flex;
+    background: #ece8e8;
+    width: 100%;
+    height: 100vh;
+}
+.diagnosis-left{
+    width: 40%;
+    background: white;
+    padding: 30px;
+}
+.diagnosis-left h3{
+    font-size: 48px;
+}
+.diagnosis-left p{
+    font-size: 24px;
+    color: #232536;
+    padding: 10px;
+
+}
+.diagnosis-left small{
+    font-size: 18px;
+}
+.diagnosis-right{
+    width: 40%;
+    margin: 30px 40px;
+    align-content: space-between;
+}
+.our-work{
+    width: 100%;
+    display: flex;
+    height: 80vh;
+}
+.work-left{
+    width: 50%
+}
+.work-left h3{
+    font-size: 48px;
+    align-items: center;
+}
+.work-p{
+    font-size: 24px;
+    color: #1E1B1B;
+}
+.work-right{
+    width: 50%;
+}
+.problem{
+    width: 100%;
+    display: flex;
+    height: 100vh;
+}
+.problem-left, .problem-right{
+    width: 50%;
+}
+.problem-right h3{
+    font-size: 48px;
+}
+.problem-right p{
+    font-size: 18px;
+    color: black;
+}
+.footer{
+    margin: 0 auto;
+    background-color:#1E1B1B ;
+}
+
+.upper-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 5px;
+    color: #ffff;
+}
+
+.footer .footer-navigation ul li a{
+   color: #ffffff;
+   text-decoration: none;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 5px;
+    color: #ffff;
+}
+
+.footer-navigation ul{
+    list-style: none;
+    display: flex;
+    margin: 10 auto;
+}
+.footer-navigation ul li{
+    margin-right: 20px;
+    text-decoration: none;
+}
+.footer-left p{
+    margin-top: 2rem;
+}
+.footer-left h6{
+    margin-top: 1rem;
+}

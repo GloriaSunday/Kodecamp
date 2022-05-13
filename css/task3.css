@@ -27,7 +27,6 @@ body{
 .right-section-1 ul {
     list-style: none;
     display: flex;
-
 }
 
 .road-assistance{
@@ -540,4 +539,111 @@ h2{
 }
 .footer-left h6{
     margin-top: 1rem;
+}
+
+/* mobile view */
+@media(max-width: 426px){
+    .main-header{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navigation ul{
+        flex-direction: column;
+    }
+    .right-section-1{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .navigation ul li{
+        padding: 10px 0;
+        margin-right: 0; 
+    }
+    .right-section-1 ul li a{
+        display: block;
+    }
+    .road-assistance{
+        padding:10px 0;
+    }
+    .flex-sm-column{
+        flex-direction: column;
+    }
+
+    #hero-section .text-section,#hero-section .image-section{
+        width: 100%;
+
+    }
+    .text-section h1{
+        font-size: 35px;
+
+    }
+    #hero-section .text-section{
+        order: 2;
+    }
+    #hero-section .image-section{
+        order: 1;
+    }
+    .section-2, .quote, .left-quote #arrow, .right-quote{
+        width: 100%;
+        flex-direction: column;
+        align-items:flex-start;
+    }
+    
+    .quote .left-quote, .quote .right-quote{
+        width: 100%;
+        margin: 10px;
+    }
+    #equipments{
+        width: 35px;
+    }
+    #convinient h3{
+        font-size: 30px;
+    }
+    .attend{
+        font-size: 20px;
+    }
+    #arrow p{
+        font-size: 22px;
+    }
+    .form-input{
+        margin-right: auto;
+        width: 25.6rem;
+        font-size: 15px;
+    }
+    .right-quote h2{
+        font-size: 35px;
+    }
+    .container, .wrapper{
+        width: 100%;
+        flex-direction: column;
+        align-items:flex-start;
+    }
+    .left-section h2{
+        font-size: 35px;
+        width: 100%;
+        align-items: flex-start;
+    }
+    .p1{
+        font-size: 18px;
+        width: 100%;
+    }
+    .right-section{
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .services{
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .services .offer{
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+    }
+    .offer h2{
+        font-size: 30px;
+    }
+
 }
